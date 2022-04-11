@@ -24,6 +24,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -80,6 +81,18 @@ p {
     display: inline-block;
     text-align: left;
     padding: 0 72px;
+}
+
+aside a {
+    position: fixed;
+    right: 5vw;
+    top: 9vh;
+    font-size: 10rem;
+    color: white;
+}
+
+aside a:hover {
+    color: rgb(255, 202, 202);
 }
 
 /* ================================================== 
