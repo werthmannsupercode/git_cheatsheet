@@ -1,0 +1,208 @@
+@font-face {
+    src: url('../fonts/CFCrayons-Regular.ttf');
+    font-family: 'CFCrayons-Regular';
+}
+
+@font-face {
+    src: url('../fonts/IndieFlower-Regular.ttf');
+    font-family: 'IndieFlower-Regular';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap');
+
+/* font-family: 'Roboto Mono', monospace; */
+
+/* ================================================== 
+            GENERAL STYLES
+===================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: url('../img/black-g2405766ec_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+section {
+    position: relative;
+}
+
+section article {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 470px;
+    height: 470px;
+    position: absolute;
+}
+
+h1 {
+    font-family: 'CFCrayons-Regular';
+    text-align: center;
+    color: white;
+    font-size: 8rem;
+    padding-top: 10vh;
+}
+
+h2 {
+    font-family: 'CFCrayons-Regular';
+    color: rgb(253, 249, 196);
+    font-size: 6rem;
+    padding: 10vh 0 5vh 10vw;
+}
+
+h3 {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 1.6rem;
+    margin: 126px 110px 0 110px;
+    background-color: black;
+    border-radius: 2px;
+    display: inline-block;
+    text-align: left;
+}
+
+p {
+    font-family: 'IndieFlower-Regular';
+    color: rgb(0, 9, 138);
+    font-size: 2rem;
+    display: inline-block;
+    text-align: left;
+    padding: 0 72px;
+}
+
+/* ================================================== 
+            REST STYLES
+===================================================== */
+
+h1 span {
+    color: rgb(255, 202, 202);
+}
+
+section article:nth-of-type(1) {
+    top: 225px;
+    left: 43.2px;
+}
+
+section article:nth-of-type(2) {
+    top: 180px;
+    left: 330px;
+}
+
+section article:nth-of-type(3) {
+    top: 270px;
+    left: 576px;
+}
+
+section article:nth-of-type(4) {
+    top: 180px;
+    left: 870px;
+}
+
+/* SECTION 1 */
+
+section:nth-of-type(1) article {
+    background-image: url('../img/post-it-blau.png');
+}
+
+section:nth-of-type(1) article:nth-of-type(1) p {
+    padding: 45px 150px 300px 129.6px;
+}
+
+section:nth-of-type(1) article:nth-of-type(2) p span {
+    color: red;
+    font-size: 3rem;
+}
+
+section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(1) {
+    padding: 45px 144px 0 115.2px;
+}
+
+section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(2) {
+    padding: 18px 150px 20px 115.2px;
+}
+
+section:nth-of-type(1) article:nth-of-type(3) p {
+    padding: 45px 120px 25vh 115.2px;
+}
+
+section:nth-of-type(1) article:nth-of-type(4) p {
+    padding: 45px 72px 270px 115.2px;
+}
+
+/* SECTION 2 */
+
+section:nth-of-type(2) {
+    top: 70vh;
+}
+
+section:nth-of-type(2) article {
+    background-image: url('../img/post-it-aqua.png');
+}
+
+section:nth-of-type(2) article:nth-of-type(1) p {
+    padding: 45px 150px 270px 129.6px;
+}
+
+section:nth-of-type(2) article:nth-of-type(2) p {
+    padding: 45px 72px 225px 115.2px;
+}
+
+/* SECTION 3 */
+
+section:nth-of-type(3) {
+    top: 140vh;
+}
+
+section:nth-of-type(3) article {
+    background-image: url('../img/post-it-yellow.png');
+}
+
+section:nth-of-type(3) article:nth-of-type(1) p {
+    padding: 45px 72px 300px 115px;
+}
+
+section:nth-of-type(3) article:nth-of-type(2) p {
+    padding: 45px 150px 225px 115.2px;
+}
+
+section:nth-of-type(3) article:nth-of-type(3) p {
+    padding: 45px 120px 25vh 115.2px;
+}
+
+section:nth-of-type(3) article:nth-of-type(4) p {
+    padding: 45px 72px 270px 115.2px;
+}
+
+/* SECTION 4 */
+
+section:nth-of-type(4) {
+    top: 210vh;
+}
+
+section:nth-of-type(4) article {
+    background-image: url('../img/post-it-orange.png');
+}
+
+section:nth-of-type(4) article:nth-of-type(1) p {
+    padding: 45px 150px 300px 115px;
+}
+
+section:nth-of-type(4) article:nth-of-type(2) p {
+    padding: 45px 150px 225px 115.2px;
+}
+
+section:nth-of-type(4) article:nth-of-type(3) p {
+    padding: 45px 50px 25vh 115.2px;
+}
