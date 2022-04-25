@@ -34,6 +34,11 @@ body {
     background-repeat: no-repeat;
     height: 100vh;
     background-attachment: fixed;
+    position: relative;
+}
+
+#gitBefehle {
+    visibility: visible;
 }
 
 section {
@@ -103,119 +108,290 @@ h1 span {
     color: rgb(255, 202, 202);
 }
 
-section article:nth-of-type(1) {
+div:nth-of-type(1) article:nth-of-type(1) div:nth-of-type(2) article:nth-of-type(1) {
     top: 225px;
     left: 43.2px;
 }
 
-section article:nth-of-type(2) {
+div:nth-of-type(1) section article:nth-of-type(2),
+div:nth-of-type(2) section article:nth-of-type(2) {
     top: 180px;
     left: 330px;
 }
 
-section article:nth-of-type(3) {
+div:nth-of-type(1) section article:nth-of-type(3),
+div:nth-of-type(2) section article:nth-of-type(3) {
     top: 270px;
     left: 576px;
 }
 
-section article:nth-of-type(4) {
+div:nth-of-type(1) section article:nth-of-type(4),
+div:nth-of-type(2) section article:nth-of-type(4) {
     top: 180px;
     left: 870px;
 }
 
 /* SECTION 1 */
 
-section:nth-of-type(1) article {
+div:nth-of-type(1) section:nth-of-type(1) article {
     background-image: url('../img/post-it-blau.png');
 }
 
-section:nth-of-type(1) article:nth-of-type(1) p {
+div:nth-of-type(1) section:nth-of-type(1) article:nth-of-type(1) p {
     padding: 45px 150px 300px 129.6px;
 }
 
-section:nth-of-type(1) article:nth-of-type(2) p span {
+div:nth-of-type(1) section:nth-of-type(1) article:nth-of-type(2) p span {
     color: red;
     font-size: 3rem;
 }
 
-section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(1) {
+div:nth-of-type(1) section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(1) {
     padding: 45px 144px 0 115.2px;
 }
 
-section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(2) {
+div:nth-of-type(1) section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(2) {
     padding: 18px 150px 20px 115.2px;
 }
 
-section:nth-of-type(1) article:nth-of-type(3) p {
+div:nth-of-type(1) section:nth-of-type(1) article:nth-of-type(3) p {
     padding: 45px 120px 25vh 115.2px;
 }
 
-section:nth-of-type(1) article:nth-of-type(4) p {
+div:nth-of-type(1) section:nth-of-type(1) article:nth-of-type(4) p {
     padding: 45px 72px 270px 115.2px;
 }
 
 /* SECTION 2 */
 
-section:nth-of-type(2) {
+div:nth-of-type(1) section:nth-of-type(2) {
     top: 70vh;
 }
 
-section:nth-of-type(2) article {
+div:nth-of-type(1) section:nth-of-type(2) article {
     background-image: url('../img/post-it-aqua.png');
 }
 
-section:nth-of-type(2) article:nth-of-type(1) p {
+div:nth-of-type(1) section:nth-of-type(2) article:nth-of-type(1) p {
     padding: 45px 150px 270px 129.6px;
 }
 
-section:nth-of-type(2) article:nth-of-type(2) p {
+div:nth-of-type(1) section:nth-of-type(2) article:nth-of-type(2) p {
     padding: 45px 72px 225px 115.2px;
 }
 
 /* SECTION 3 */
 
-section:nth-of-type(3) {
+div:nth-of-type(1) section:nth-of-type(3) {
     top: 140vh;
 }
 
-section:nth-of-type(3) article {
+div:nth-of-type(1) section:nth-of-type(3) article {
     background-image: url('../img/post-it-yellow.png');
 }
 
-section:nth-of-type(3) article:nth-of-type(1) p {
+div:nth-of-type(1) section:nth-of-type(3) article:nth-of-type(1) p {
     padding: 45px 72px 300px 115px;
 }
 
-section:nth-of-type(3) article:nth-of-type(2) p {
+div:nth-of-type(1) section:nth-of-type(3) article:nth-of-type(2) p {
     padding: 45px 150px 225px 115.2px;
 }
 
-section:nth-of-type(3) article:nth-of-type(3) p {
+div:nth-of-type(1) section:nth-of-type(3) article:nth-of-type(3) p {
     padding: 45px 120px 25vh 115.2px;
 }
 
-section:nth-of-type(3) article:nth-of-type(4) p {
+div:nth-of-type(1) section:nth-of-type(3) article:nth-of-type(4) p {
     padding: 45px 72px 270px 115.2px;
 }
 
 /* SECTION 4 */
 
-section:nth-of-type(4) {
+div:nth-of-type(1) section:nth-of-type(4) {
     top: 210vh;
 }
 
-section:nth-of-type(4) article {
+div:nth-of-type(1) section:nth-of-type(4) article {
     background-image: url('../img/post-it-orange.png');
 }
 
-section:nth-of-type(4) article:nth-of-type(1) p {
+div:nth-of-type(1) section:nth-of-type(4) article:nth-of-type(1) p {
     padding: 45px 150px 300px 115px;
 }
 
-section:nth-of-type(4) article:nth-of-type(2) p {
+div:nth-of-type(1) section:nth-of-type(4) article:nth-of-type(2) p {
     padding: 45px 150px 225px 115.2px;
 }
 
-section:nth-of-type(4) article:nth-of-type(3) p {
+div:nth-of-type(1) section:nth-of-type(4) article:nth-of-type(3) p {
     padding: 45px 50px 25vh 115.2px;
+}
+
+/* SHELL-BEFEHLE */
+
+#slideInShell {
+    position: fixed;
+    right: 5vw;
+    bottom: 5vw;
+    color: white;
+    font-size: 10rem;
+    cursor: pointer;
+}
+
+#slideOutShell {
+    position: fixed;
+    right: 5vw;
+    bottom: 5vw;
+    color: white;
+    font-size: 10rem;
+    cursor: pointer;
+}
+
+#shellBefehle {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    z-index: 1;
+}
+
+
+div:nth-of-type(2) section:nth-of-type(1) article {
+    background-image: url('../img/post-it-blau.png');
+}
+
+div:nth-of-type(2) section:nth-of-type(1) article:nth-of-type(1) p:nth-of-type(1) {
+    padding: 30px 144px 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(1) article:nth-of-type(1) p:nth-of-type(2) {
+    padding: 0 0 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(1) article:nth-of-type(1) p:nth-of-type(2) span {
+    color: white;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+}
+
+div:nth-of-type(2) section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(1) {
+    padding: 30px 0 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(2) {
+    padding: 0 0 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(3) {
+    padding: 0 130px 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(2) span,
+div:nth-of-type(2) section:nth-of-type(1) article:nth-of-type(2) p:nth-of-type(3) span {
+    color: white;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+}
+
+/* SECTION 2 */
+
+div:nth-of-type(2) section:nth-of-type(2) {
+    top: 70vh;
+}
+
+div:nth-of-type(2) section:nth-of-type(2) article {
+    background-image: url('../img/post-it-rosa.png');
+}
+
+div:nth-of-type(2) section:nth-of-type(2) article:nth-of-type(1) p:nth-of-type(1) {
+    padding: 30px 144px 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(2) article:nth-of-type(2) p:nth-of-type(1) {
+    padding: 30px 144px 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(2) article:nth-of-type(3) p:nth-of-type(1) {
+    padding: 30px 100px 0 115.2px;
+}
+
+/* SECTION 3 */
+
+div:nth-of-type(2) section:nth-of-type(3) {
+    top: 140vh;
+}
+
+div:nth-of-type(2) section:nth-of-type(3) article {
+    background-image: url('../img/post-it-yellow.png');
+}
+
+div:nth-of-type(2) section:nth-of-type(3) article:nth-of-type(1) p:nth-of-type(1) {
+    padding: 30px 144px 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(3) article:nth-of-type(2) p:nth-of-type(1) {
+    padding: 30px 144px 0 115.2px;
+}
+
+/* SECTION 4 */
+
+div:nth-of-type(2) section:nth-of-type(4) {
+    top: 210vh;
+}
+
+div:nth-of-type(2) section:nth-of-type(4) article {
+    background-image: url('../img/post-it-orange.png');
+}
+
+div:nth-of-type(2) section:nth-of-type(4) article:nth-of-type(1) p:nth-of-type(1) {
+    padding: 30px 144px 0 115.2px;
+}
+
+
+div:nth-of-type(2) section:nth-of-type(4) article:nth-of-type(2) p:nth-of-type(1) {
+    padding: 30px 0 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(4) article:nth-of-type(2) p:nth-of-type(2) {
+    padding: 0 0 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(4) article:nth-of-type(2) p:nth-of-type(2) span {
+    color: white;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+}
+
+div:nth-of-type(2) section:nth-of-type(4) article:nth-of-type(3) p:nth-of-type(1) {
+    padding: 30px 100px 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(4) article:nth-of-type(4) p:nth-of-type(1) {
+    padding: 30px 0 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(4) article:nth-of-type(4) p:nth-of-type(2) {
+    padding: 0 0 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(4) article:nth-of-type(4) p:nth-of-type(2) span {
+    color: white;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.6rem;
+}
+
+div:nth-of-type(2) section:nth-of-type(4) article:nth-of-type(4) p:nth-of-type(3) {
+    padding: 0 0 0 115.2px;
+}
+
+div:nth-of-type(2) section:nth-of-type(4) article:nth-of-type(4) p:nth-of-type(3) span {
+    color: white;
+    background-color: black;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.8rem;
 }

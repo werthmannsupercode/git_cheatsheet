@@ -12,77 +12,150 @@
 </head>
 
 <body>
-    <h1 id="git">kleiner spickzettel <span>git</span></h1>
-    <section>
-        <h2>neues repository</h2>
-        <article>
-            <h3>git init</h3>
-            <p>initialisiert ein lokales git repository
-            </p>
-        </article>
-        <article>
-            <h3>git add .</h3>
-            <p>gibt an was alles in den commit rein soll</p>
-            <p><span>.</span> gibt an, dass alles in den commit soll</p>
-        </article>
-        <article>
-            <h3>git commit -m “message”</h3>
-            <p>hinterlegt einen message/ commit (man kann auch sagen: legt eine version an)</p>
-        </article>
-        <article>
-            <h3>git push</h3>
-            <p>schickt das lokale repository in das github repository</p>
-        </article>
-    </section>
-    <section>
-        <h2>commits anzeigen</h2>
-        <article>
-            <h3>git log</h3>
-            <p>zeigt alle bis dato erstellten commits ausführlich an</p>
-        </article>
-        <article>
-            <h3>git log --oneline</h3>
-            <p>zeigt alle bis dato erstellten commits in kurzform an</p>
-        </article>
-    </section>
-    <section>
-        <h2>branches</h2>
-        <article>
-            <h3>git branch “name”</h3>
-            <p>erstellt einen neuen branch</p>
-        </article>
-        <article>
-            <h3>git branch -a</h3>
-            <p>zeigt alle erstellten branches an</p>
-        </article>
-        <article>
-            <h3>git branch -d “name”</h3>
-            <p>löscht den ausgewählten branch</p>
-        </article>
-        <article>
-            <h3>git checkout</h3>
-            <p>wechseln zwischen den branches</p>
-        </article>
-    </section>
-    <section>
-        <h2>anpassen</h2>
-        <article>
-            <h3>git pull</h3>
-            <p>lädt die aktuelle version des repository von github herunter </p>
-        </article>
-        <article>
-            <h3>git clone</h3>
-            <p>kopiert ein fremdes projekt von github</p>
-        </article>
-        <article>
-            <h3>git merge</h3>
-            <p>ist dafür da um zwei branches zusammenzuführen</p>
-        </article>
-    </section>
-    <aside>
-        <a href="#git"><i class="lab la-github"></i></a>
-    </aside>
+    <div id="gitBefehle">
+        <h1 id="git">kleiner spickzettel <span>git</span></h1>
+        <section>
+            <h2>neues repository</h2>
+            <article>
+                <h3>git init</h3>
+                <p>initialisiert ein lokales git repository
+                </p>
+            </article>
+            <article>
+                <h3>git add .</h3>
+                <p>gibt an was alles in den commit rein soll</p>
+                <p><span>.</span> gibt an, dass alles in den commit soll</p>
+            </article>
+            <article>
+                <h3>git commit -m “message”</h3>
+                <p>hinterlegt einen message/ commit (man kann auch sagen: legt eine version an)</p>
+            </article>
+            <article>
+                <h3>git push</h3>
+                <p>schickt das lokale repository in das github repository</p>
+            </article>
+        </section>
+        <section>
+            <h2>commits anzeigen</h2>
+            <article>
+                <h3>git log</h3>
+                <p>zeigt alle bis dato erstellten commits ausführlich an</p>
+            </article>
+            <article>
+                <h3>git log --oneline</h3>
+                <p>zeigt alle bis dato erstellten commits in kurzform an</p>
+            </article>
+        </section>
+        <section>
+            <h2>branches</h2>
+            <article>
+                <h3>git branch “name”</h3>
+                <p>erstellt einen neuen branch</p>
+            </article>
+            <article>
+                <h3>git branch -a</h3>
+                <p>zeigt alle erstellten branches an</p>
+            </article>
+            <article>
+                <h3>git branch -d “name”</h3>
+                <p>löscht den ausgewählten branch</p>
+            </article>
+            <article>
+                <h3>git checkout</h3>
+                <p>wechseln zwischen den branches</p>
+            </article>
+        </section>
+        <section>
+            <h2>anpassen</h2>
+            <article>
+                <h3>git pull</h3>
+                <p>lädt die aktuelle version des repository von github herunter </p>
+            </article>
+            <article>
+                <h3>git clone</h3>
+                <p>kopiert ein fremdes projekt von github</p>
+            </article>
+            <article>
+                <h3>git merge</h3>
+                <p>ist dafür da um zwei branches zusammenzuführen</p>
+            </article>
+        </section>
+        <aside>
+            <a href="#git"><i class="lab la-github"></i></a>
+        </aside>
+        <div id="slideInShell" onclick="slideInShell()"><i class="las la-arrow-circle-right"></i></div>
+    </div>
 
+
+    <div id="shellBefehle">
+        <h1>kleiner spickzettel <span>Shell-Befehle</span></h1>
+        <section>
+            <h2>erstellen</h2>
+            <article>
+                <h3>touch </h3>
+                <p>erstellt eine neue Datei
+                </p>
+                <p>z.B. <span>touch index.html</span></p>
+            </article>
+            <article>
+                <h3>mkdir </h3>
+                <p>erstellt einen neuen Ordner</p>
+                <p>z.B. <span>mkdir assets</span></p>
+                <p>oder für Unterordner <span>mkdir assets/css</span></p>
+            </article>
+        </section>
+        <section>
+            <h2>Inhalte anzeigen</h2>
+            <article>
+                <h3>ls </h3>
+                <p>zeigt an welche Inhalte im ausgewählten Ordner vorhanden sind</p>
+            </article>
+            <article>
+                <h3>ls -l </h3>
+                <p>zeigt dazu noch weitere Informationen</p>
+            </article>
+            <article>
+                <h3>ls -a </h3>
+                <p>zeigt auch versteckte Ordner und Dateien an</p>
+            </article>
+        </section>
+        <section>
+            <h2>navigieren</h2>
+            <article>
+                <h3>cd </h3>
+                <p>wechselt den Ordner oder die Datei</p>
+            </article>
+            <article>
+                <h3>cd ../ </h3>
+                <p>geht eine Ebene zurück</p>
+            </article>
+        </section>
+        <section>
+            <h2>dies und das</h2>
+            <article>
+                <h3>cat </h3>
+                <p>zeigt Inhalt der Datei als Text im Terminal an</p>
+            </article>
+
+            <article>
+                <h3>cp </h3>
+                <p>kopieren eines Elements</p>
+                <p>z.B.<br> <span>Dateiname Zielpfad</span></p>
+            </article>
+            <article>
+                <h3>pwd </h3>
+                <p>gibt den Pfad an, in dem der Rootordner abgelegt ist</p>
+            </article>
+            <article>
+                <h3>mv </h3>
+                <p>um Dateien zu verschieben und umzubenennen</p>
+                <p>z.B. <span>alterPfad/Dateiname Zielpfad</span></p>
+                <p>z.B. <span>alterPfad/alterDateiname Zielpfad/neuerDateiname</span></p>
+            </article>
+        </section>
+        <div id="slideOutShell" onclick="slideOutShell()"><i class="las la-arrow-circle-left"></i></div>
+    </div>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
